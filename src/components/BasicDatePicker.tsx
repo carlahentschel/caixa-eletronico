@@ -13,7 +13,7 @@ const BasicDatePicker: React.FC<BasicDatePickerProps> = ({ setDate }) => {
         <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="en-gb">
             <DemoContainer components={["DatePicker"]}>
                 <DatePicker
-                    label="Data"
+                    label="Selecione uma data"
                     sx={{ width: "100%" }}
                     slotProps={{
                         textField: {

@@ -72,7 +72,12 @@ const AddTransactions: React.FC = () => {
                         <FormControlLabel control={<Checkbox defaultChecked />} label="Depósito" />
                     </FormGroup>
                 </Grid>
-                <Grid xs={12} item>
+                <Grid item xs={6}>
+                    <Button fullWidth variant="outlined">
+                        Limpar
+                    </Button>
+                </Grid>
+                <Grid xs={6} item>
                     <Button onClick={() => console.log(transaction)} variant="contained" fullWidth>
                         Cadastrar
                     </Button>
